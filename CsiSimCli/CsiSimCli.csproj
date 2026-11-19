@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- CSI シミュレータのコマンドライン版。計算コアは Unity プロジェクトのファイルをそのまま使う -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../CsiSim/Assets/CsiSim/Scripts/Core/*.cs" />
+  </ItemGroup>
+</Project>

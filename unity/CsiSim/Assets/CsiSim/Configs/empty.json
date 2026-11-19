@@ -1,0 +1,13 @@
+{
+  "fps": 100, "seed": 1,
+  "tx": [ {"x": 0, "y": 2.2, "z": 3.0} ],
+  "rx": [ {"x": -2.8, "y": 1.2, "z": 2.5}, {"x": 2.8, "y": 1.2, "z": 2.5}, {"x": -2.8, "y": 1.0, "z": -2.5}, {"x": 2.8, "y": 1.0, "z": -2.5}, {"x": 0, "y": 2.4, "z": -3.0} ],
+  "rf": { "fc": 2.447e9, "df": 312500, "floor": true, "floorY": 0, "floorGamma": -0.5, "blockAtt": 0.2, "pointSpacing": 0.15 },
+  "clutter": { "count": 6, "xmin": -3, "xmax": 3, "zmin": -3, "zmax": 3, "hmin": 0.3, "hmax": 1.8, "rmin": 0.1, "rmax": 0.4, "rho": 1.0, "seed": 7 },
+  "motion": [ {"type": "still", "dur": 10} ], "motion_unused": [
+    {"type": "tpose", "dur": 3}, {"type": "idle", "dur": 5}, {"type": "walk", "dur": 20, "radius": 1.2, "speed": 0.8},
+    {"type": "arms", "dur": 10}, {"type": "squat", "dur": 8}, {"type": "reach", "dur": 6}, {"type": "random", "dur": 30}
+  ],
+  "emptyRoom": true,
+  "out": "E:/CSI/sim_out/empty"
+}

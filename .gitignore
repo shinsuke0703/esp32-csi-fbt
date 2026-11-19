@@ -1,0 +1,21 @@
+# PlatformIO
+.pio/
+# Unity
+unity/CsiSim/[Ll]ibrary/
+unity/CsiSim/[Tt]emp/
+unity/CsiSim/[Ll]ogs/
+unity/CsiSim/[Uu]ser[Ss]ettings/
+unity/CsiSim/*.csproj
+unity/CsiSim/*.sln
+# .NET
+CsiSimCli/bin/
+CsiSimCli/obj/
+# Python
+__pycache__/
+# 収録データ (公開しない)
+*.npz
+*.npy
+*.pgm
+*.csv
+live/sessions/
+sim_out/
