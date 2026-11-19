@@ -54,3 +54,7 @@ python live/sync_check.py live/sessions/calib1          # Kinect の時刻の遅
 ## 含まれていないもの
 
 収録データ（CSI、Kinect の骨格、深度画像）とシミュレーションの出力は含めていません。スクリプト内のパスには、作者の環境（`E:/CSI/...`）が残っています。
+
+## ライセンス
+
+[MIT](LICENSE)
